@@ -1,0 +1,38 @@
+
+.ai-footer-wrapper {
+  width: 100%;
+  padding: 0;
+  max-width: unset;
+}
+
+.ai-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Align children to the left */
+  padding: 10px 20px; /* Adjusted padding for better spacing */
+}
+
+.ai-footer > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.ai-footer > div > div {
+  display: flex;
+  flex-direction: column; /* Ensure elements are stacked vertically */
+}
+
+.ai-footer p {
+  margin: 0;
+  padding: 5px 0; /* Adjusted padding for more precise spacing */
+  color: var(--text-color); /* Ensure text color consistency */
+}
+
+.ai-footer a {
+  text-decoration: none;
+  color: var(--text-color); /* Change the color to match the original image */
+}
+
+.ai-footer a:hover {
+  text-decoration: underline;
+}

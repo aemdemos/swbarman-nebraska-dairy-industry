@@ -1,0 +1,53 @@
+
+.ai-custom-columns-wrapper > .ai-custom-columns > div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.ai-custom-columns-wrapper > .ai-custom-columns > div > div:first-child {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.ai-custom-columns-wrapper > .ai-custom-columns > div > div:last-child {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start; /* Ensure alignment */
+  margin-top: 0; /* Align with header */
+}
+
+.ai-custom-columns-wrapper #home {
+  font-size: var(--heading-font-size-xs); /* Adjusted font size */
+  font-weight: normal;
+  margin-bottom: 10px; /* Reduced margin-bottom */
+}
+
+.ai-custom-columns-wrapper ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0; /* Removed margin */
+}
+
+.ai-custom-columns-wrapper ul li {
+  margin-bottom: 5px; /* Adjusted margin for compactness */
+}
+
+.ai-custom-columns-wrapper ul li a {
+  color: var(--link-color);
+  text-decoration: underline;
+}
+
+.ai-custom-columns-wrapper ul li a:hover {
+  text-decoration: none;
+}
+
+.ai-custom-columns-wrapper > .ai-custom-columns > div > div:last-child p {
+  margin: 0;
+  align-self: flex-start; /* Align search text to top-right corner */
+  white-space: nowrap; /* Prevent text wrapping */
+  padding-left: 20px; /* Add padding to the left for spacing */
+  margin-top: -20px; /* Further adjusted margin-top to align with header */
+}
